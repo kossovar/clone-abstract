@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+ }
+
+nav {
+    height: 88px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: calc(15px * 2);
+    padding-right: calc(15px * 2);
+}
+
+.left ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    font-size: 17px;
+}
+
+.left ul a {
+    color: #fff;
+    text-decoration: none;
+}
